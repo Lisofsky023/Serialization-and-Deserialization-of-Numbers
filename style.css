@@ -1,0 +1,32 @@
+body {
+  background-color: #000000d9;
+  color: azure;
+}
+
+h1, h2 {
+  color: orange;
+}
+
+button {
+  cursor: pointer;
+  border: solid 1px #00ffff66;
+  background-color: transparent;
+  color: #00ffffde;
+  padding: 10px 10px;
+}
+
+#test-data {
+  color: rgba(255, 68, 0, 0.664);
+}
+
+#serialized-data {
+  color: rgba(137, 43, 226, 0.904);
+}
+
+#deserialized-data {
+  color: rgba(128, 255, 0, 0.781);
+}
+
+#compression-rate {
+  color: cornflowerblue;
+}

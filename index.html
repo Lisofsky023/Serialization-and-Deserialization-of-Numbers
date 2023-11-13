@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <title>Document</title>
 </head>
 <body>
@@ -11,16 +12,20 @@
   <button id="serialize">Serialize</button>
   <button id="deserialize">Deserialize</button>
   <div>
-      <h3>Test Data:</h3>
-      <div id="test-data"></div>
-  </div>
-  <div>
-      <h3>Serialized data:</h3>
+      <h2>Serialized data:</h2>
       <div id="serialized-data"></div>
   </div>
   <div>
-      <h3>Deserialized data:</h3>
+      <h2>Deserialized data:</h2>
       <div id="deserialized-data"></div>
+  </div>
+  <div>
+    <h2>Compression Rate:</h2>
+    <pre id="compression-rate"></pre>
+  </div>
+  <div>
+      <h2>Test Data:</h2>
+      <div id="test-data"></div>
   </div>
     <script src="./script.js"></script> 
 </body>
